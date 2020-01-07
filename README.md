@@ -11,10 +11,16 @@ demo [apulbere.github.io/nyx](https://apulbere.github.io/nyx)
 
 
 #### build
-```npm install```
+```
+npm install
+```
 
 #### run
-```npm start```
+```
+npm start
+```
 
 #### deploy to gh-pages
-```npm run deploy``` 
+```
+npm run deploy
+``` 

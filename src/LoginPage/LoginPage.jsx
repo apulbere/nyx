@@ -43,14 +43,14 @@ class LoginPage extends React.Component {
             <div className="col-md-6 col-md-offset-3 login-container">
                 <form name="form" onSubmit={this.handleSubmit}>
                     <div className={'form-group' + (submitted && !username ? ' has-error' : '')}>
-                    <label htmlFor="username">Username</label> <small>(the name you've lost)</small>
+                    <label htmlFor="username">Username</label> <small>(the name you lost)</small>
                         <input type="text" className="form-control quote-input" name="username" value={username} onChange={this.handleChange} />
                         {submitted && !username &&
                             <div className="help-block">Username is required</div>
                         }
                     </div>
                     <div className={'form-group' + (submitted && !password ? ' has-error' : '')}>
-                        <label htmlFor="password">Password</label> <small>(the book we've read)</small>
+                        <label htmlFor="password">Password</label> <small>(the book we read)</small>
                         <input type="password" className="form-control quote-input" name="password" value={password} onChange={this.handleChange} />
                         {submitted && !password &&
                             <div className="help-block">Password is required</div>
