@@ -3,8 +3,7 @@ React-redux app with Quarkus on backend
 
 BE now is able to respond within ~5 sec. and not ~25 sec. as was with Spring stack (first request after idle state).
 
-Demo
-URL: apulbere.github.io/nyx
+demo [apulbere.github.io/nyx](https://apulbere.github.io/nyx)
 
 | Username  | Password |
 |---|---|
@@ -12,10 +11,10 @@ URL: apulbere.github.io/nyx
 
 
 #### build
-```npm install``
+```npm install```
 
 #### run
 ```npm start```
 
 #### deploy to gh-pages
-```npm deploy``` 
+```npm run deploy``` 
